@@ -79,7 +79,7 @@ public class PlayerInputHandler : MonoBehaviour
 
             bounceDirOther = bounceDirOther * bounceForce;
             bounceDirOther.y = 0;
-            //other.gameObject.transform.DOMove(other.transform.position + bounceDirOther, 0.3f).SetEase(Ease.OutQuad);
+            other.gameObject.transform.DOMove(other.transform.position + bounceDirOther, 0.3f).SetEase(Ease.OutQuad);
         }
         if (other.gameObject.tag == "Bomb")
         {
