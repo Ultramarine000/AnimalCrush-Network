@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/PlayerSetUp.unity
+    guid: 0078e80a66f30054097384ec83ee648f
+  - enabled: 0
+    path: Assets/Scenes/0-River.unity
+    guid: 3f4512a81c717354dbbdb864ccacaf22
+  - enabled: 0
+    path: Assets/Scenes/1-Ice.unity
+    guid: c7c5bd353baebae4284810c7fe9fa106
+  - enabled: 0
+    path: Assets/Scenes/2-Magma.unity
+    guid: e9ba2e47cc3439146b711e5651cbe498
+  - enabled: 0
+    path: Assets/Scenes/3-Sand.unity
+    guid: 5d7cfa7be77a4ea47b8f971aae411ad9
+  - enabled: 0
+    path: Assets/Scenes/SettleAccount.unity
+    guid: 55e5561989e785e4595a0a3e5978b184
+  - enabled: 1
+    path: Assets/Scenes/Zero.unity
+    guid: 579f6bce6398928479ea77b095271f35
+  - enabled: 1
+    path: Assets/Scenes/0-River-Net.unity
+    guid: c2834c832700a3744af08833cf4caedf
+  - enabled: 1
+    path: Assets/Scenes/LogTest.unity
+    guid: b7ae801e041437841994d3d2050aa1e3
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 6370b2bb99fd62446bb175ba4bcc475d,
+      type: 2}

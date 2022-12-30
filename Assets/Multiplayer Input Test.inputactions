@@ -1,0 +1,71 @@
+{
+    "name": "Multiplayer Input Test",
+    "maps": [
+        {
+            "name": "Cube",
+            "id": "cdd46e03-bce4-4348-9924-026a07801175",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "6a11448a-fc85-4aed-ad3c-41288108c12d",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "JumpA",
+                    "type": "Button",
+                    "id": "a122d31d-9c24-479a-b02a-40d7a92cd767",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CrunchB",
+                    "type": "Button",
+                    "id": "d109d3cc-dc96-4a41-bb4d-0be991a74106",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4c24cfea-1024-4cc7-aaa3-6cd1baa0e943",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "19d5059c-3f89-4785-a299-83d2024bf542",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "JumpA",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "10885e4a-f22b-409f-a07f-3c110a330d3d",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CrunchB",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
